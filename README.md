@@ -8,9 +8,9 @@ The system should be able to recognize and extract relevant information from use
 In addition, the system must be able to understand requests that include specific details, such as "I want to buy a Gucci cloth with size XL," which contains two important tokens (Brand and Cloth Size). So this will call the listing service with brand and cloth size parameters so as to query for only matched entities
 
 Similarly,
-"my account balance"
-"How much do i have left"
-"my wallet status"
+1.  "my account balance",
+2.  "How much do i have left"
+3.  "my wallet status"
 
 All should be calling the wallet service
 
