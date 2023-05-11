@@ -14,3 +14,16 @@ Similarly,
 
 All should be calling the wallet service
 
+Some steps we can take:
+
+Pre-processing: We can begin by cleaning and normalizing the text input. This involves converting all text to lowercase, removing stop words and punctuation, and tokenizing the text into individual words.
+
+Feature Engineering: We can extract relevant information such as category, brand, size, and price range using techniques like Named Entity Recognition (NER) and Part-of-Speech (POS) tagging.
+
+Machine Learning Models: We can use machine learning models such as Support Vector Machines (SVMs) or Recurrent Neural Networks (RNNs) to train a classifier that can classify user requests into one of the two services, Listing or Check Wallet Balance.
+
+Entity Matching: Once we have classified the user request, we can extract the relevant information from the request using the features we extracted in step 2. We can then use this information to query our database and retrieve the appropriate items.
+
+Response Generation: Finally, we can generate an appropriate response to the user request based on the results obtained from step 4.
+
+Overall, this approach should allow us to build an NLP model that can accurately understand and respond to customer requests in text format, with a high degree of accuracy and flexibility.
